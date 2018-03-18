@@ -1,0 +1,15 @@
+<%
+  if (typeof name === 'undefined') var name = "";
+  if (typeof job === 'undefined') var job = "";
+  if (typeof image === 'undefined') var name = "";
+  if (typeof anime === 'undefined') var anime = "";
+%>
+<li>
+  <div class="image <%= anime %>">
+    <img width="100" height="100" src="<%= image %>" alt="<%= name %>">
+  </div>
+  <dl>
+    <dt><%= name %></dt>
+    <dd><%= job %></dd>
+  </dl>
+</li>

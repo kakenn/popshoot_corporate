@@ -1,0 +1,23 @@
+<section id="team">
+  <div class="wrapper">
+    <h2>TEAM</h2>
+    <ul>
+      <% for (var i=0,len=team.length;i<len;i++) { %>
+        <% if(i==6 && false){ %>
+          <%- include('../common/team_human', {
+            name: team[i].name,
+            job: team[i].job,
+            image: team[i].image,
+            anime: "anime"
+          }); %>
+        <% }else{ %>
+          <%- include('../common/team_human', {
+            name: team[i].name,
+            job: team[i].job,
+            image: team[i].image
+          }); %>
+        <% } %>
+      <% } %>
+    </ul>
+  </div>
+</section>
