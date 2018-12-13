@@ -1,5 +1,5 @@
 {
-  "siteTitle": "株式会社Popshoot | 資産運用をバリアフリーに。",
+  "siteTitle": "株式会社Popshoot | 挑戦する人が称賛される社会をつくる。",
   "description": "株式会社Popshootは、お金の貸し借りのメモアプリ「よろペイ」の開発・運営をしています。私たちは、生活の上で切り離す事ができない「お金」の問題に取り組むことで、1人1人の挑戦を促進し、またその挑戦が賞賛される世の中をつくります。",
   "keyword": "大山敏浩,同志社,doshisha,techkids,テックキッズ,関西,関西大学,ぽっぷしゅーと,よろペイ,yoropay,仮想通貨,お金のメモ,ヒカル,ラファエル,ペイモ,paymo,kyash,hiraku,バズ,vaz,割り勘アプリ,割り勘,eastventures,sv木下,松山大河,木村匠吾,coinnews,coinshop,ビットコイン,コインニュース,コインショップ",
   "siteUrl": "http://popshoot.co.jp/",
@@ -13,49 +13,58 @@
   },
   "team": [
     {
-      "name": "大山 敏広",
+      "name": "大山 敏浩",
       "job": "CEO",
+      "nickname": "おーやま",
       "image": "/assets/images/team/team_1.png"
     },
     {
       "name": "佐藤 大輔",
       "job": "CTO",
+      "nickname": "ダイスケ",
       "image": "/assets/images/team/team_2.png"
     },
     {
       "name": "木村 匠吾",
       "job": "Designer",
+      "nickname": "しょーご",
       "image": "/assets/images/team/team_3.png"
     },
     {
       "name": "尾松 郁也",
       "job": "Engineer",
+      "nickname": "おまってぃ",
       "image": "/assets/images/team/team_4.png"
     },
     {
       "name": "小林 大佑",
       "job": "Engineer",
+      "nickname": "えんか",
       "image": "/assets/images/team/team_5.png"
     },
     {
       "name": "森澤 僚太",
       "job": "Manager",
+      "nickname": "モリゾー",
       "image": "/assets/images/team/team_6.png"
-    },
-    {
-      "name": "山田 直樹",
-      "job": "Analyst",
-      "image": "/assets/images/team/team_7.png"
     },
     {
       "name": "東 明花",
       "job": "Marketer",
+      "nickname": "ずまさん",
       "image": "/assets/images/team/team_8.png"
     },
     {
       "name": "三上 航人",
       "job": "Engineer",
+      "nickname": "しゅーと",
       "image": "/assets/images/team/team_9.png"
+    },
+    {
+      "name": "奥村 晋太郎",
+      "job": "Engineer",
+      "nickname": "しんた",
+      "image": "/assets/images/team/team_10.jpg"
     },
     {
       "name": "メンバー募集",

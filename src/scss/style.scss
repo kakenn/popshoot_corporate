@@ -377,18 +377,59 @@ main section .wrapper{
 }
 #whatWeDo{
   background: #fafafa;
+  .bger:nth-child(2){
+    background: #fff;
+  }
   h3{
+    max-width: 100%;
     text-indent: -9999px;
-    width: 326px;
-    height: 68px;
-    background: url(/assets/images/yoropay_logo.png) center center;
-    background-size: cover;
+    width: auto;
+    height: 80px;
+    background: url(/assets/images/wei_logo.png) center center no-repeat;
+    background-size: 398px 80px;
     margin: 0;
     padding: 0;
     margin-bottom: 42px;
     @media screen and (max-width: 620px) {
       width: 300px;
       height: 62px;
+    }
+  }
+  .bger:nth-child(1){
+    @media screen and (max-width: 620px) {
+      h3{
+        background-size: cover;
+      }
+    }
+  }
+  .bger:nth-child(2){
+    h3{
+      width: 324px;
+      height: 75px;
+      background: url(/assets/images/pitacoin_logo.png) center center;
+      background-size: cover;
+    }
+  }
+  .bger:nth-child(3){
+    h3{
+      width: auto;
+      height: 156px;
+      background: url(/assets/images/ethlab_logo.png) center center no-repeat;
+      background-size: 156px;
+    }
+    .right{
+      padding-top: 80px;
+    }
+  }
+  .bger:nth-child(4){
+    h3{
+      width: auto;
+      height: 90px;
+      background: url(/assets/images/logo.svg) center center no-repeat;
+      background-size: 300px auto;
+    }
+    .right{
+      padding-top: 80px;
     }
   }
   .desc{
@@ -412,10 +453,8 @@ main section .wrapper{
   }
   .right{
     float: right;
-    img{
-      position: relative;
-      right: 21px;
-    }
+    text-align: center;
+    min-width: 50%;
     @media screen and (max-width: 1000px) {
       float: none;
       width: 100%;
@@ -466,6 +505,15 @@ main section .wrapper{
       }
     }
   }
+  
+  .bger:nth-child(2), .bger:nth-child(4){
+     .right{
+       float: left;
+     }
+     .left{
+       float: right;
+     }
+  }
 }
 #team{
   ul{
@@ -484,7 +532,7 @@ main section .wrapper{
       flex-basis: 25%;
     }
     @media screen and (max-width: 630px) {
-      flex-basis: 33%;
+      flex-basis: 50%;
     }
   }
   .image{
@@ -509,6 +557,7 @@ main section .wrapper{
     line-height: 1;
     color: #9B9B9B;
     margin: 0;
+    margin-top: 4px;
     padding: 0;
   }
   .image{

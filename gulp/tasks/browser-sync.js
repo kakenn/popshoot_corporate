@@ -6,10 +6,12 @@ import {path} from '../Config';
 
 gulp.task('browser-sync', function() {
   browserSync({
+    port: process.env.PORT,
+    host: process.env.IP,
     server: {
       baseDir: path.dist.root,
-      index  : "index.html"
-    }
+      index  : "index.html",
+    },
   });
 });
 

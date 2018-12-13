@@ -43,7 +43,21 @@ $(function () {
       });
     }
     return false;
-  })
+  });
+  $(window).resize(function(){
+    if($(window).width() < 700) {
+      $("#whatWeDo h3").map(function(index, val){
+        if(index == 0){
+          $(this).height(~~($(this).width()/4.975));
+        }else if(index == 1){
+          $(this).height(~~($(this).width()/4.32));
+        }else if(index == 2){
+          $(this).height(156);
+        }
+      });
+    }
+  });
+  $(window).trigger("resize");
 
 });
 
@@ -54,8 +68,8 @@ $(function () {
 
 let map, marker, infoWindow;
 let center = {
-  lat: 35.665959,
-  lng: 139.7343374
+  lat: 35.6658634,
+  lng: 139.7283354,
 };
 function initMap() {
   map = new google.maps.Map(document.getElementById("gmap"), {

@@ -1,6 +1,7 @@
 <%
   if (typeof name === 'undefined') var name = "";
   if (typeof job === 'undefined') var job = "";
+  if (typeof nickname === 'undefined') var nickname = "";
   if (typeof image === 'undefined') var name = "";
   if (typeof anime === 'undefined') var anime = "";
 %>
@@ -10,6 +11,9 @@
   </div>
   <dl>
     <dt><%= name %></dt>
+    <% if(nickname){ %>
+    <dd>(<%= nickname %>)</dd>
+    <% } %>
     <dd><%= job %></dd>
   </dl>
 </li>

@@ -1,5 +1,5 @@
-const srcPath = "./src/"
-const distPath = "./dist/"
+const srcPath = "./src/";
+const distPath = "./dist/";
 const path = {
   src: {
     sass: [`${srcPath}scss/**/*.scss`, `!${srcPath}scss/**/_*.scss`],
